@@ -1,0 +1,101 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}    
+
+.tahoma {
+  font-family: Tahoma;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.biggest-deal {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+
+.sales-end {
+  font-family: Arial;
+  font-style: italic;
+  color: red;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+.html-css-course {
+  font-family: verdana;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.beginner-pro {
+  font-family: verdana;
+  font-size: 14px;
+  color: rgb(97, 97, 97);
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-family: verdana;
+  font-size: 14px;
+  width: 260px;
+  margin-bottom: 20px;
+}
+
+.get-started {
+  font-family: verdana;
+  font-size: 14px;
+  color: white;
+  background-color: rgb(50, 130, 170);
+  border-style: none;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  padding-right: 14px;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.get-started:hover {
+  opacity: 0.8;
+} 
+
+.get-started:active {
+  opacity: 0.6;
+}
+
+.shopping {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+.apple-can-help {
+  font-family: Arial;
+  font-size: 12px;
+  width: 224px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.learn-more {
+  font-family: Arial;
+  font-size: 12px;
+  color: rgb(0, 109, 233);
+  width: 224px;
+  text-align: center;
+}
+
+.learn:hover {
+ text-decoration: underline;
+  cursor: pointer;
+}
+
+.learn:active {
+ text-decoration: none;
+}

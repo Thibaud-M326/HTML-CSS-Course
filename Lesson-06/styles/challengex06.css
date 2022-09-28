@@ -1,0 +1,29 @@
+p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.model-3 {
+  font-size: 39px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.order {
+  font-size: 18px;
+}
+
+.delivery {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.delivery:hover {
+  text-decoration: none;
+}
+
+.delivery:active {
+  text-decoration: underline;
+}

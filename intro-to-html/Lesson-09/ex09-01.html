@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      ex09-01 div-boxs 
+    </title>
+    <style>
+      div {
+        display: block;
+      }
+
+      .red-box {
+        color: red;
+        background-color: red;
+        width: 200px;
+        height: 200px;
+      }
+
+      .blue-box {
+        color: green;
+        background-color: green;
+        border-radius: 100px;
+        width: 200px;
+        height: 200px;
+      }
+
+      .text-box {
+        text-align: center;
+        padding-top: 100px;
+      }
+
+      .div-service-satisfaction {
+        margin-top: 20px;
+        border-style: solid;
+        border-width: 1px;
+        width: 300px;
+      }
+
+      .text-satisfaction { 
+        margin-left: 15px;
+        font-family: Arial;
+      }
+
+      .div-button {
+        margin-left: 15px;
+      }
+
+      .yes-no-button {
+        margin-bottom: 16px;
+      }
+
+      .div-install-youtubeMusic {
+        margin-top: 30px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 0px;
+        border-style: solid;
+        border-width: 1px;
+        width: 460px;
+        background-color: rgb(79, 79, 79);
+      }
+      
+      .install-youtubeMusic {
+        font-size: 29px;
+        font-family: Arial;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: white;
+      }
+      
+      .add-youtube-desktop {
+        color: rgb(185, 185, 185);
+        width: 430px;
+        font-size: 18px;
+        font-family: Arial;
+        font-weight: bold;
+      }
+
+      .div-tweet-whatsup{
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.30);
+        display: inline-block;
+      }
+      
+      .twitter-user-picture {
+        width: 30px;
+        height: 30px; 
+        object-fit: cover;
+        object-position: center;
+        border-radius: 35px;
+        vertical-align: middle;
+      }
+      
+      .what-input {
+        font-family: Arial;
+        border-style: none;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        vertical-align: middle;
+      }
+      
+      .tweet-button {
+        color: white;
+        background-color: rgb(38, 146, 255);
+        font-weight: bold; 
+        border-style: none;
+        border-radius: 16px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        vertical-align: middle;
+      }
+
+      .tweet-button:hover {
+        opacity: 0.8;
+      }
+
+      .tweet-button:active {
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div class="red-box">
+      <p class="text-box">
+        nothing
+      </p> 
+    </div>
+    <div class="blue-box">
+      <p class="text-box">
+        nothing
+      </p> 
+    </div>
+    
+    <div class="div-service-satisfaction">
+      <p class="text-satisfaction">
+        Satisfied with our service?
+      </p>
+      <div class="div-button">
+        <button class="yes-no-button">
+          yes
+        </button>
+        <button class="yes-no-button">
+          no 
+        </button>
+      </div>
+    </div>
+
+    <div class="div-install-youtubeMusic">
+      <p class="install-youtubeMusic">
+        Install YouTube Music
+      </p>
+      <p class="add-youtube-desktop">
+        Add YouTube Music to your desktop for quick and easy access
+      </p>
+    </div>
+   
+    <div class="div-tweet-whatsup">
+      <img class="twitter-user-picture" src="thumbnails/Pluie sol NewYork.jpeg">
+      <input class="what-input" type="text" placeholder="What's happening">
+      <button class="tweet-button">
+        Tweet
+      </button>
+    </div>
+
+  </body>
+</html>

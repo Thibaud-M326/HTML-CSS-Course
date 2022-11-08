@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>nestedLayout</title>
+    <style>
+      
+      .container {
+        width: 320px;
+        margin: 4px;
+        display: inline-block;
+      }
+      
+      .picture {
+        width: 70px;
+        height: 70px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      
+      .userPicture {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+      
+      .text {
+        width: 100px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+        margin-left: 15px;
+      }
+
+      .username {
+        font-weight : 700;
+        font-size: 18px;
+      }
+      
+      .description {
+        font-size: 18px;
+        color: grey;
+      }
+      
+      .rank {
+        color: grey;
+      }
+
+      .button {
+        display: inline-block;
+      }
+
+      .follow {
+        margin-left: 40px;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        color: white;
+        background-color: rgb(38, 146, 255);
+        border-style: none;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+
+      .follow:hover {
+        background-color: rgb(66, 160, 255);
+      }
+
+      .follow:active {
+        background-color: rgb(101, 178, 255);
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="picture">
+        <img class="userPicture" src="thumbnails/user-dreamingFile.jpg">
+      </div>
+      <div class="text">
+        <p class="username">
+        oliver
+        </p>
+        <p class="description">
+        the cat
+        </p>
+        <p class="rank">
+        popular 
+        </p>
+      </div>
+      <div class="button">
+        <button class="follow">
+          Follow
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
